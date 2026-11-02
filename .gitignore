@@ -1,0 +1,65 @@
+# --- Personal assistant notes / tooling ---
+CLAUDE.md
+.claude/
+
+# --- Secrets ---
+.env
+.env.*
+!.env.example
+
+# --- Virtual environments ---
+.venv/
+venv/
+env/
+ENV/
+
+# --- Python bytecode and build artifacts ---
+__pycache__/
+*.py[cod]
+*$py.class
+build/
+dist/
+*.egg-info/
+.eggs/
+*.egg
+pip-wheel-metadata/
+
+# --- Test / lint / type-check caches ---
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# --- Data (populated by scripts, never committed) ---
+data/raw/
+data/processed/
+
+# --- Local databases and vector stores ---
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+*.sqlite
+*.sqlite3
+.chroma/
+chroma/
+qdrant_storage/
+
+# --- Model checkpoints ---
+models/
+finetune/outputs/
+
+# --- OS files ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- IDE / editor folders ---
+.vscode/
+.idea/
+*.swp
+*~
+
+# Note: eval/results/ and eval/datasets/ are intentionally tracked (part of the deliverable).
