@@ -6,7 +6,9 @@ readme = "README.md"
 requires-python = ">=3.11"
 authors = [{ name = "Khaled" }, { name = "Haider" }]
 # Runtime dependencies are added phase by phase as features land (see CLAUDE.md roadmap).
-dependencies = []
+dependencies = [
+    "pydantic-settings>=2.16.2",
+]
 
 # Entry points are added when the corresponding code exists:
 #   steb     = "steb.cli:app"           (Phase 1)
