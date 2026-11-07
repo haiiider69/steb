@@ -79,12 +79,6 @@ tests/
 | 9 | Streamlit web UI | todo |
 | 10 | Hardening, report, demo | todo |
 
-## Team
-
-| Member | Focus |
-|---|---|
-| Khaled | Capture & store, normalization/fingerprinting/redaction, retrieval, LangGraph agent, MCP |
-| Haider | Bug zoo & eval datasets, external KB ingestion, generation benchmark, fine-tuning, web UI |
 
 ## Documentation
 
