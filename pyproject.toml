@@ -8,10 +8,14 @@ authors = [{ name = "Khaled" }, { name = "Haider" }]
 # Runtime dependencies are added phase by phase as features land (see CLAUDE.md roadmap).
 dependencies = [
     "pydantic-settings>=2.16.2",
+    "typer>=0.28.0",
 ]
 
+[project.scripts]
+ steb = "steb.cli:app"
+
 # Entry points are added when the corresponding code exists:
-#   steb     = "steb.cli:app"           (Phase 1)
+
 #   steb-mcp = "steb.mcp_server:main"   (Phase 6)
 
 [dependency-groups]
