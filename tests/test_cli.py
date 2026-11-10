@@ -110,3 +110,15 @@ def test_list_on_an_empty_database() -> None:
     result = runner.invoke(app, ["list"])
     assert result.exit_code == 0
     assert "No errors recorded yet" in result.output
+
+
+"""
+commande guide for terminal CLI
+uv run steb --help
+uv run steb run -- python -c "raise KeyError('name')"
+uv run steb run -- python -c "raise KeyError('name')"
+uv run steb list
+uv run steb fix 1 --note "added a default value"
+uv run steb run -- python -c "raise KeyError('name')"
+uv run steb show 1
+"""
