@@ -1,0 +1,8 @@
+{
+  "id": "type_errors/concat_str_and_int",
+  "category": "type_errors",
+  "title": "Concatenating a string and an integer with +",
+  "exception": "TypeError",
+  "message_contains": "can only concatenate str",
+  "fix_summary": "Convert the number to text (str(count)) or build the line with an f-string."
+}

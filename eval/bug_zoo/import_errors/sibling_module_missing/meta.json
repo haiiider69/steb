@@ -1,0 +1,8 @@
+{
+  "id": "import_errors/sibling_module_missing",
+  "category": "import_errors",
+  "title": "Importing a helper module that is not next to the script",
+  "exception": "ModuleNotFoundError",
+  "message_contains": "text_tools",
+  "fix_summary": "The helper module does not exist on the import path; define the function in the script (or put the module next to it)."
+}

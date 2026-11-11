@@ -1,0 +1,8 @@
+{
+  "id": "encoding_errors/ascii_decode_of_utf8",
+  "category": "encoding_errors",
+  "title": "Decoding UTF-8 bytes as ASCII",
+  "exception": "UnicodeDecodeError",
+  "message_contains": "'ascii' codec can't decode byte",
+  "fix_summary": "Decode with the encoding the data really uses: body.decode('utf-8'), not 'ascii'."
+}

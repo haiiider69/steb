@@ -33,7 +33,8 @@ packages = ["src/steb"]
 
 # ---------------------------------------------------------------- ruff
 [tool.ruff]
-line-length = 100
+line-length = 100 
+extend-exclude = ["eval/bug_zoo"]
 target-version = "py311"
 src = ["src", "tests"]
 

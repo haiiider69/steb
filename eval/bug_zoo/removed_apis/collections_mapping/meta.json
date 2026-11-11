@@ -1,0 +1,8 @@
+{
+  "id": "removed_apis/collections_mapping",
+  "category": "removed_apis",
+  "title": "Using collections.Mapping, removed in Python 3.10",
+  "exception": "AttributeError",
+  "message_contains": "'Mapping'",
+  "fix_summary": "The ABCs moved to collections.abc long ago: use collections.abc.Mapping."
+}

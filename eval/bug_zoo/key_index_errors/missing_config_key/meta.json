@@ -1,0 +1,8 @@
+{
+  "id": "key_index_errors/missing_config_key",
+  "category": "key_index_errors",
+  "title": "Reading an optional setting with square brackets",
+  "exception": "KeyError",
+  "message_contains": "user",
+  "fix_summary": "Use settings.get('user', default) for optional keys instead of indexing the dict directly."
+}
